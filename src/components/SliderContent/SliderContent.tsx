@@ -11,8 +11,6 @@ const SliderContent = () => {
 
   const { title, content } = slideData[currentSlideIndex];
 
-  console.log(title, content);
-
   return (
     <Article
       key={title}
